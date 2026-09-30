@@ -1,0 +1,34 @@
+{
+  "name": "botting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node --max-http-header-size=65536 lib/index.js",
+    "test": "node lib/tests/test_lobby_coordinator.js && node lib/tests/test_chat_extraction.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "axios": "^1.7.7",
+    "base-64": "^1.0.0",
+    "body-parser": "^1.20.3",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "fastify": "^4.28.1",
+    "mineflayer": "^4.20.1",
+    "path": "^0.12.7",
+    "proxy-agent": "^5.0.0",
+    "puppeteer": "^23.3.0",
+    "readline": "^1.3.0",
+    "socks": "^2.7.1",
+    "socks-proxy-agent": "^5.0.0",
+    "utf8": "^3.0.0"
+  }
+}
